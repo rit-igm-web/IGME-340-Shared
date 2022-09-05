@@ -68,7 +68,7 @@ This code will be the basis for the exercise.
    * Each should be uniquely colored.
    * It should appear as follows:
 
-      ![](../images/flutter_basics-01.png)    
+      ![](images/flutter_basics-01.png)    
 
 6. Change the flow of the containers to the bottom.
    
@@ -76,13 +76,13 @@ This code will be the basis for the exercise.
 
 8. Alter the column and containers to make the UI look like the following:
 
-    ![](../images/flutter_basics-02.png)
+    ![](images/flutter_basics-02.png)
    
 9.  Save the work to a new file as `basics02.dart`.
 
 10. Convert the `Column` into a Row, and alter settings of the `Row` and `Containers` to create this:
    
-    ![](../images/flutter_basics-03.png)    
+    ![](images/flutter_basics-03.png)    
 
 11. Save the work to a new file, `basics03.dart`.
     

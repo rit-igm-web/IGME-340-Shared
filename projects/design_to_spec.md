@@ -19,7 +19,7 @@ This is decidedly __NOT__ a Project for you to exercise your *design* creativity
 
 You will be graded on how close you are able to get your page to the appearance of this demo animation.
 
-Source image files, fonts, palette, and reference images/animations to work with are available here: [https://github.com/lucidchin/IGME-340-Shared/blob/main/projects/support_files/flutter_design_to_spec_assets.zip](flutter_design_to_spec_assets.zip)
+Source image files, fonts, palette, and reference images/animations to work with are available here: [flutter_design_to_spec_assets.zip](https://github.com/lucidchin/IGME-340-Shared/blob/main/projects/support_files/flutter_design_to_spec_assets.zip)
 
 This is an individual project, and since everyone is doing the EXACT SAME design, you should guard your code carefully so that it is not made available to others.  There is enough ambiguity in the design and the ways that it gets implemented that everyone's project can certainly be unique.
 

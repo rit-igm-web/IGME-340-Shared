@@ -28,4 +28,5 @@ This project is more creative, feel free to change the contents of the mockup to
 There are a few complex operations that can be performed with text fields and user interaction, I will award extra credit for doing the following:
 * Ensuring the keyboard does not obscure the form.
 * Make finishing the text entry of a form go to the next text field.
+* Add Form Validation to this exercise.
   

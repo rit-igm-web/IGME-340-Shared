@@ -2,7 +2,7 @@
 
 Welcome to Dart, this is the underlying language used by Flutter, so getting a basic grasp of this language will be important to build apps in Flutter. So, first thing we will look into are the Variables and Data Types used in the language.
 
-Create a new __Dart Console Application__ using Visual Studio Code, call this `dart_variables`. Once the project is created, let's clear out the `bin\dart_variables.dart` file, since we won't need the starter code. Put the following code into the file.
+For simplicity, we will use Dartpad (https://dartpad.dev). In Dartpad, create a __New Pad__ and put the following code into the editor.
 
 ### dart_variables.dart
 ```dart
@@ -38,7 +38,7 @@ Let's work with some of the quirks with data types.
         ```dart
         iAmFinal = "I changed my Mind!";
         ```
-1. __Var vs Dynamic__, `var` and `dynamic` are similar, but the difference is `dynamic` can always change type whereas var, once the data type is set, cannot change. Try the following:
+1. __Var vs Dynamic__, `var` and `dynamic` are similar, but the difference is `dynamic` can always change type whereas var, once the data type is set, cannot change. Clear out the above attempt and try the following:
 
     1. In the main, add this following code:
         ```dart
@@ -47,9 +47,15 @@ Let's work with some of the quirks with data types.
         iAmVar = "I am String now";
         print(iAmVar);
         ```
-        This works fine? Why? because we defined `iAmVar` without a type, so Dart converts this to a dynamic. However, if you modify the var to initially assign `iAmVar` to an number, you will not be allowed to change it into a String. Try that now, you will see the above code no longer work.
+        This works fine? Why? because we defined `iAmVar` without a type, so Dart converts this to a dynamic. However, if you modify the var to initially assign `iAmVar` to an number: 
+        
+        ```
+        var iAmVar = 12345;
+        ``` 
+        
+        You will not be allowed to change it into a String. Try that now, try to assign `iAmVar` to a string.
 
-    1. Now let's try `iAmDynamic`, alter the declaration of our dynamic and give it a number. Then try the same code in step 1 and see what happens.
+    2. Now let's try `iAmDynamic`, alter the declaration of our dynamic and give it a number. Then try the same code in step 1 and see what happens.
 
 ## Console Output ##
 At some point you'll want to ouput data, we've already seen from above you can use `print`, but you can do more than just output a variable. Dart supports string interpolation. You can do the following:
@@ -88,4 +94,4 @@ Do the following tasks, feel free to use Dart documentation or your internet sea
     
 1. Modify both the `for loop` and `while loop` and break out of the loop once the counter reaches 10.
     
-Save the resulting file for submission.
+Save the resulting file for submission as `dart_ice_01.dart`.

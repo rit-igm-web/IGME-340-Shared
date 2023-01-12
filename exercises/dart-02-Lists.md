@@ -1,6 +1,6 @@
 # Dart ICE 2 - Lists
 
-Create a new Dart Console Application using Visual Studio Code, call it `dart_lists`. Clear everything out of the starter file and replace with the following:
+In Dartpad, create a __New Pad__ and replace everything in the editor with the following code:
 
 ### dart_lists.dart
 ```dart
@@ -29,4 +29,4 @@ void main() {
 
 1. Remove items `2 to 5` in `myList2`, and print the result.
 
-Save the resulting file for submission.
+Save the resulting file as `dart_ice_02.dart`for submission.

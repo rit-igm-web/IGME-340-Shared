@@ -1,8 +1,7 @@
 # Dart ICE 3 - Maps
 
-Create a new Dart Console Application using Visual Studio Code, call it `dart_maps`. Clear everything out of the starter file and replace with the following:
+In Dartpad, create a New Pad and replace everything in the editor with the following code:
 
-### main.dart
 ```dart
 var player01 = {
   'name': 'Leeroy Jenkins',
@@ -73,5 +72,4 @@ void main() {
     
 1. Clear `player01`, and output the result.
 
-Save the resulting file for submission.
-
+Save the resulting file as `dart_ice_03.dart`for submission.

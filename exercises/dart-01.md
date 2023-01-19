@@ -4,7 +4,6 @@ Welcome to Dart, this is the underlying language used by Flutter, so getting a b
 
 For simplicity, we will use Dartpad (https://dartpad.dev). In Dartpad, create a __New Pad__ and put the following code into the editor.
 
-### dart_variables.dart
 ```dart
 void main() {
     int myNumber = 1234;
@@ -30,15 +29,15 @@ Let's work with some of the quirks with data types.
         ```dart
         myConst = "changed const";
         ```
-    1. Assign some value to `iAmFinal`. 
+    2. Assign some value to `iAmFinal`. 
         ```dart
         iAmFinal = "My Final Offer";
         ```
-    1. Attempt to change `iAmFinal`, you will get an error.
+    3. Attempt to change `iAmFinal`, you will get an error.
         ```dart
         iAmFinal = "I changed my Mind!";
         ```
-1. __Var vs Dynamic__, `var` and `dynamic` are similar, but the difference is `dynamic` can always change type whereas var, once the data type is set, cannot change. Clear out the above attempt and try the following:
+2. __Var vs Dynamic__, `var` and `dynamic` are similar, but the difference is `dynamic` can always change type whereas var, once the data type is set, cannot change. Try the following:
 
     1. In the main, add this following code:
         ```dart
@@ -47,13 +46,7 @@ Let's work with some of the quirks with data types.
         iAmVar = "I am String now";
         print(iAmVar);
         ```
-        This works fine? Why? because we defined `iAmVar` without a type, so Dart converts this to a dynamic. However, if you modify the var to initially assign `iAmVar` to an number: 
-        
-        ```
-        var iAmVar = 12345;
-        ``` 
-        
-        You will not be allowed to change it into a String. Try that now, try to assign `iAmVar` to a string.
+        This works fine? Why? because we defined `iAmVar` without a type, so Dart converts this to a dynamic. However, if you modify the var to initially assign `iAmVar` to an number, you will not be allowed to change it into a String. Try that now, you will see the above code no longer work.
 
     2. Now let's try `iAmDynamic`, alter the declaration of our dynamic and give it a number. Then try the same code in step 1 and see what happens.
 

@@ -2,7 +2,6 @@
 
 In Dartpad, create a __New Pad__ and replace everything in the editor with the following code:
 
-### dart_lists.dart
 ```dart
 void main() {
     
@@ -29,4 +28,4 @@ void main() {
 
 1. Remove items `2 to 5` in `myList2`, and print the result.
 
-Save the resulting file as `dart_ice_02.dart`for submission.
+Save the resulting file as dart_ice_02.dartfor submission.

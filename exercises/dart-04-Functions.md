@@ -2,9 +2,8 @@
 
 Let's explore functions in Dart. Functions are vital for code re-use. Luckily Dart functions don't vary much from other languages.
 
-Create a new Dart Console Application using Visual Studio Code, call it `dart_functions`. Clear out the file and replace with the contents below.
+In Dartpad, create a New Pad and replace everything in the editor with the following code:
 
-### dart_functions.dart
 ```dart
 void main() {
     // add your new code here.
@@ -122,4 +121,4 @@ Now it's time for you to do work. Complete the following tasks:
 
 
 
-Save the resulting file for submission.
+Save the resulting file as `dart_ice_04.dart`for submission.

@@ -3,10 +3,8 @@
 Dart is an object-oriented language, and the use of objects is important to making more manageable programs. Dart has similar object mechanics to other languages like C#.
 In this exercise we will explore them and have you work on mastering some of the concepts.
 
-Start by creating a new Visual Studio Code Dart Console project, call it `dart_oop`.
-Remove all the content from the start file and replace with the code below.
+In Dartpad, create a New Pad and replace everything in the editor with the following code:
 
-### dart_oop.dart
 ```dart
 /// our list of monsters
 List<dynamic> monsters = []; 
@@ -150,4 +148,4 @@ Now let you get to do some work. Complete the following tasks:
 1. Create a new `List` of `Treasure`, and add 5 treasure items to it, then loop through the list and report each item's status.
 	
 
-When you're finished, save your work and submit.
+Save the resulting file as `dart_ice_05.dart`for submission.

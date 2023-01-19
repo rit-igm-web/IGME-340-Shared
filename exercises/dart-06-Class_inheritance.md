@@ -2,9 +2,8 @@
 
 Now that we know how to create an object, we move onto the ability to create sub-objects where the new object inherits the fields and methods of another. Let's continue with some of the work done in the previous lab.
 
-Create a new Console Dart application in Visual Studio Code, call this app, dart_inheritance. Replace the start file contents with the following:
+In Dartpad, create a New Pad and replace everything in the editor with the following code:
 
-### dart_inheritance.dart
 ```dart
 /// our list of monsters
 List<dynamic> monsters = [];
@@ -121,4 +120,4 @@ Now it's time you do some work. Complete the following tasks.
 
 
 
-When you're finished, save your work and submit.
+Save the resulting file as `dart_ice_06.dart`for submission.

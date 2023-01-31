@@ -93,7 +93,7 @@ This code will be the basis for the exercise.
    * Unique color for each container.
 
     Also make the containers fill the entire width of the column. 
-    Run the program, you should see the contents have overflown the bounds, Fix this problem (hint, it's not by shrinking any of the containers).
+    Run the program, you should see the contents have overflown the bounds, Fix this problem (hint, it's not by shrinking any of the containers. Internet search for a potential solution with another widget).
     
 13. Save the work to a new file, `basics04.dart`.
 

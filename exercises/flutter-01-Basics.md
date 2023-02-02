@@ -88,7 +88,7 @@ This code will be the basis for the exercise.
     
 12. Change the `Row` back into a `Column` and clear out the children. Now add in 8 Containers with the following attributes:
  
-   * height of 20 
+   * height of 200 
    * Centered Text identifying each container.
    * Unique color for each container.
 

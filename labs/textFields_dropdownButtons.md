@@ -1,4 +1,4 @@
-# Lab 02: TextFields & DropdownButtons
+# Lab 01: TextFields & DropdownButtons
 
 ## I. Overview
 This lab is designed to get your familiar with using TextFields and Dropdownbuttons which are essential for getting user input.

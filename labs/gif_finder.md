@@ -1,4 +1,4 @@
-# Lab 03: GIF Finder
+# Lab 02: GIF Finder
 
 ## I. Overview
 This lab is designed to further your skills in Flutter, this time we will be using a GridView and using Flutter's HTTP functionality to call a restful API. The API, GIPHY, should be familiar since you all should have gone through IGME-230/235. This time, we're going to make GIF Finder in a Flutter App.

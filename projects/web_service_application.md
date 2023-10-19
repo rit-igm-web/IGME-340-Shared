@@ -4,7 +4,7 @@
 
 For this project you are creating a Flutter Application that utilizes a Web service.
 - Your goal is to create an application that is easy to use, functional, and aesthetically pleasing.
-- Ideally the experience will run in either the Android Emulator or IOS Simulator. 
+- Ideally the experience will run in either the Android Simulator or IOS Simulator. 
 - The objective of this project is for you to demonstrate your mastery of Flutter and Dart programming. 
 - You will be evaluated on:
     - how well you met the requirements of the assignment.
@@ -56,14 +56,14 @@ For this project you are creating a Flutter Application that utilizes a Web serv
 
 3. Required controls - there will be a MINIMUM of 3 controls that a user can use to filter and display the results. Search buttons or similar don't count towards the 3 controls. For example, GIF Finder has these controls:
     - a search button (which doesn't count)
-    - a search term field (&lt;input>) that the user types into
-    - a pulldown (&lt;select>) that the user can use to limit the number of results
+    - a search term field that the user types into
+    - a pulldown that the user can use to limit the number of results
 
   -  **So you will need at least one additional kind of control. What kind of control to use depends on what parameters the web service will allow you to search it on. Here are some ideas:**
   
      - a **rating** pulldown - if we had this on the GIPHY HW then a user would be able to choose between viewing "G" and "PG" videos for example
      - a **sort by** pulldown to allow the user to view the results sorted A->Z, Z->A, by date, etc 
-     - a **date** chooser to filter the results by date - jQuery has a Datepicker Widget that would help with this -> https://jqueryui.com/datepicker/
+     - a **date** chooser to filter the results by date - a Datepicker Widget would be an excellent choice here.
      - **next** and **previous** buttons - another really nice option is to allow the user to "page" through large numbers of results. In the GIPHY HW did you notice that we always get the same 100 "cat" GIFs back when we search?
        - This is because there are ***thousands*** of cat GIFs on GIPHY, and if we don't otherwise specify we will always get them returned from the web service starting at index 0, which means we always get the first 100 (index 0-99) back.
        - We can instead write code that requests a higher starting index.
@@ -107,5 +107,5 @@ The grading rubric for this project is visible in myCourses.  You should look it
 Reminder - 'A' -level work means doing college-level work that goes beyond what we did in class. (You should be able to see this reflected in the online Rubric). Meeting only the base requirements will most likely only earn you a B.
 
 ## VI. Submission
-- Perform a `flutter clean`, ZIP and post the completed project and documentation page to to the mycourses dropbox
+- Perform a `flutter clean`, ZIP and post the completed project and documentation page to to the mycourses dropbox. Be sure to check the Submission Guidelines for more details!
 

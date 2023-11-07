@@ -11,8 +11,9 @@ The project will be very open and it will be up to you to decide what technologi
 - Native Camera
 - Flutter Casual Game Kit
 - **Firebase** 
-- **BLoC**
+- Advanced State Management, ex: **BLoC**, **Riverpod**
 - Responsive Layout
+- Other package not discussed or shown in class.
   
 Example projects:
 - Flutter Game
@@ -33,7 +34,7 @@ Example projects:
 ## III. Requirements
 
 ### A. Functional
-- - Your game or app should do something useful, and be easy to use.
+- Your game or app should do something useful, and be easy to use.
 - The functionality goes beyond what we have done in similar in-class examples and exercises.
 - Input validation (if applicable)
 - Use of Shared_Preferences to save and load data.

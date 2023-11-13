@@ -37,9 +37,11 @@ Example projects:
 - Your game or app should do something useful, and be easy to use.
 - The functionality goes beyond what we have done in similar in-class examples and exercises.
 - Input validation (if applicable)
+- Custom Splash Screen and Icon, Good App Name.
 - Use of Shared_Preferences to save and load data.
 - Should have more than 1 page, at a minimum your app and an about page.
 - No App crashing.
+- Documentation Page, accessible from within your app.
   
 
 ### B. Design & Interaction

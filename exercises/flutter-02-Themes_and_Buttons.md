@@ -81,7 +81,7 @@ This code will be the basis for the exercise.
 
 1. Add a `themeMode` attribute to your MaterialApp and set it to `light`.
 
-2. Add a `darkTheme` to the MaterialApp, and apply a 
+2. Add a `darkTheme` to the MaterialApp, and apply a new color scheme based on a seed color of `red`.
 
 3. Add a `scaffoldBackgroundColor` to both light and dark themes. Set the dark background to `blueGrey[500]` and the light background to `grey[300]`. Now toggle the theme between light and dark and observe the background color change, it should toggle between the blueGrey when dark, and grey when light. **Return back to the `light` theme before continuing.**
 
@@ -89,6 +89,7 @@ This code will be the basis for the exercise.
     * `green` to `primary`
     * `yellow` to `secondary`
     * `pink` to `error`
+
 
 5. Add to both light and dark themes a `textTheme`, and establish a custom `color`, `fontSize`, and `fontWeight` for the following properties:
    * `displayLarge`
@@ -106,16 +107,16 @@ This code will be the basis for the exercise.
 
 8. In the ThemeData, create a style for all `ElevatedButtons`, do this for both the light and dark theme. Give the theme a `background`, `foreground` color and a `textStyle`. Use colors from the theme's colorScheme.
 
-9. Add a, `TextButton` and `OutlinedButton`. Give each some identifying text. For now, make each onpressed event an empty function.
+9. Wrap the `Column` in a `SingleChildScrollView` Widget.
 
-9. Style the `TextButton` and `OutlinedButton` button using inline styles and give them a `background`,  `foreground`, and some font settings.
+10. At the top of the `Column`, Add a, `TextButton` and `OutlinedButton`. Give each some identifying text. For now, make each onpressed event an empty function. Style the buttons with inline styles; give them a background and foreground color, and some font settings.
 
-10. Change your latest `ElevatedButton` to use an inline style.
+11. Change your latest `ElevatedButton` to use an inline style of your choice.
 
-11. Create an `ElevatedButton` with an icon. Create and use an inline style to customize it as you like, but also alter the `border` of this button.
+12. At the top of the `Column`, Create an `ElevatedButton` with an icon. Create and use an inline style to customize it as you like, but also alter the `border` of this button.
 
-12. Alter the default font of the theme to `Courier`.
+13. Alter the default font of the theme to `Courier`.
 
-13. Add an `onPressed` event for each one, you can use either an external function or an anonymous function. Output some text to the console.
+14. Add an `onPressed` event for each of your buttons, you can use either an external function or an anonymous function. Output some text to the console.
    
 Perform a `flutter clean`, zip up your app and submit to the Assignment dropbox.

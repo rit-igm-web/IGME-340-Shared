@@ -40,6 +40,9 @@ For this project you are creating a Flutter Application that utilizes a Web serv
         - *Starters for the above 3 APIs can be found in the [web-service-app-starters.md](https://github.com/tonethar/IGME-235-Shared/blob/master/tutorial/web-service-app-starters.md)
     - REST Countries: https://restcountries.eu/
     - TheMealDB API: https://www.themealdb.com/api.php
+    - There are other API's listed here:
+        - [https://github.com/public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists)
+        - [https://www.freecodecamp.org/news/public-apis-for-developers/](https://www.freecodecamp.org/news/public-apis-for-developers/)
   - You can make pretty much any experience you like as long as it captures a user request, gets data from the API, and then presents it back in a way that is useful or fun, easy to understand, and fairly well organized. 
         
 #### Choose Your Own API Option

@@ -145,7 +145,12 @@ Now let you get to do some work. Complete the following tasks:
     * create a constructor __without__ using named parameters. 
     * create a method called `status`, which outputs the object fields.
 
-1. Create a new `List` of `Treasure`, and add 5 treasure items to it, then loop through the list and report each item's status.
-	
+1. Create a new `List` of `Treasure`, and add 5 treasure items to it, then loop through the list and report each item's status. 
+
+1. Use Cascading/Chaining to create a new __Player__ and add a new item to the __treasures__ list. At the end of the chain call the __status__ method to output the results.	For the new treasure item, output the entire list. 
+
+    ** HINT: You will need to alter the Treasure class.
+
+
 
 Save the resulting file as `dart_ice_05.dart`for submission.

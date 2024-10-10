@@ -14,24 +14,9 @@ For this project you are creating a Flutter Application that utilizes a Web serv
 ## II. Requirements
 
 ### A. Functional
-1. You have three options for selecting a Web API for this project.
-- Continue to use the GIPHY API and deliver a GREATLY improved version of GIF Finder.
-- Use one of a specified set of APIs and create a similar experience to GIF Finder that meets the requirments.
-- Select another API of your choice that you can provide a proof-of-concept for by the Proposal due-date.
+1. Use one of a specified set of APIs or one of your choosing to create a similar experience to GIF Finder that meets the requirments.
 
-#### GIPHY Option
-- You may choose to use GIPHY for this project, however you must do the following things.
-  - Completely re-vamp the user interface.  There should be no elements from the original interface (images, layout, buttons, phrasing, etc) still in use in your new implementation.  
-  - Add much more functionality.  At a minimum:    
-    - Implement a progress indicator, spinner or other progress graphic.
-    - Add a way to "Get More" results with "next/previous" functionality.
-    - At least 2 other new features. for example:
-      - Keep a list of recent searches.
-      - Find popular/trending GIFs.
-      - Allow the user to "favorite" images and then retrieve them later.
-      - Save images to the device gallery.
-    
-#### Specified API Option
+#### Some Preselected Options
 - You may get familiar with and use one of the APIs from this list:
   - Because APIs change from time to time this is not a guarantee that these APIs will be smooth sailing, but they have been shown to work.
     - Dog API*: https://dog.ceo/dog-api/
@@ -70,9 +55,7 @@ For this project you are creating a Flutter Application that utilizes a Web serv
      - **next** and **previous** buttons - another really nice option is to allow the user to "page" through large numbers of results. In the GIPHY HW did you notice that we always get the same 100 "cat" GIFs back when we search?
        - This is because there are ***thousands*** of cat GIFs on GIPHY, and if we don't otherwise specify we will always get them returned from the web service starting at index 0, which means we always get the first 100 (index 0-99) back.
        - We can instead write code that requests a higher starting index.
-       - In the GIPHY API this can be done by tracking and adding an `offset` value to the query string that is sent over to the API.
-
-
+      
 ### B. Design & Interaction
 - Pleasing graphic design:
   - Show me the cool things you can do in Flutter. 

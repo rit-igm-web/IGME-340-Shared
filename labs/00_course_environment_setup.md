@@ -28,7 +28,7 @@ There are number of methods to install Flutter, But this is the following method
         * you should start to see an option called __"Edit the System Environment Variables"__
         * Press Enter when this opion is available. This will bring up the __"System Properties"__.
     * In the __System Properties__ window, click on the __"Environment Variables"__ button.
-    ![<img src="images/setup-env-01.png" width="250"/>](images/setup-env-01.png)
+    ![System Properties](images/setup-env-01.png){width=250}
     * In the __"Environment Variables"__ window, in the top box __"User variables for (username)"__, select the __"Path"__ Variable, then click __"Edit"__.
     ![Edit Path](images/setup-env-02.png)
     * In the __"Edit environment variables"__ window, click the __"New"__ button, and add in the path to your unzipped flutter directory, __NOTE__ You need to include the subfolder __"bin"__ in the path; For example, if you unzipped the flutter zip file to __c:\flutter__, you would add __"c:\flutter\bin"__.

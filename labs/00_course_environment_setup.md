@@ -30,7 +30,7 @@ There are number of methods to install Flutter, But this is the following method
     * In the __System Properties__ window, click on the __"Environment Variables"__ button.
 
 
-           ![System Properties](images/setup-env-01.png)
+        ![System Properties](images/setup-env-01.png)
 
 
     * In the __"Environment Variables"__ window, in the top box __"User variables for (username)"__, select the __"Path"__ Variable, then click __"Edit"__.

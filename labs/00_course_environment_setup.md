@@ -1,6 +1,7 @@
 # Course Environment Setup #
 
 Welcome to IGME-340 Multi-platform Media Application Development. Before really getting into our course, it is important to perform some inital work to ensure your experience is as smooth as possible.
+The steps involved to setup the environment look intimidating, but it's really not too bad; it looks worse in writing than in practice. I have a video [walking through the installation at this link](https://youtu.be/cPImUbHOUmI), if you prefer to watch than follow this written guide (However, it's only for Windows).
 
 This lab will go over the following items:
 1. Proper Flutter installtion.
@@ -10,14 +11,16 @@ This lab will go over the following items:
     4. XCode (Mac, optional)
 2. Visual Studio Code setup.
 3. Android Simulator setup.
-4. Commenting Guidelines.
-5. Submission Guidelines.
-6. Assignment.
+4. Confirm Flutter is Ready.
+5. Commenting Guidelines.
+6. Submission Guidelines.
+7. Assignment.
 
 # Flutter Installation
 There are number of methods to install Flutter, But this is the following method I recomment.
 
 ## Windows
+
 1. Open a web browser to this address: https://docs.flutter.dev/get-started/install/windows/mobile
 2. Download the latest Flutter version zip file.
 3. Unzip the file to a folder on your C Drive or other letter drive, ex: C:\flutter.
@@ -48,7 +51,31 @@ There are number of methods to install Flutter, But this is the following method
     * Click __OK__ to close all of your windows (should be 3 times).
 
 ## Mac
-Coming Soon
+Installation on OSX is a similar prospect, where you do the following:
+1. Download the latest SDK zip file and extract into a folder.
+
+    Flutter for OSX can be downloaded from [the Flutter web site](https://docs.flutter.dev/get-started/install/macos/mobile-ios). Just be sure you download the correct version for your processor, if your Mac has an M processor, you'll want to grab the ARM64 version.
+    Once downloaded, you can extract the zip file contents into a folder on your desktop, or where you please, Google recommends a ~/development.
+
+    __NOTE__ The link above is also the Flutter OSX install guide, which is more comprehensive than the summary I am providing here, so refer to the Flutter page for more details.
+
+1. Add Flutter to your Path
+
+    Go to your user root folder, and either edit or create a new file called __".zshenv"__
+    Inside this file, put the following contents:
+
+    ```
+    export PATH=$HOME/FOLDER_TO_FLUTTER/bin:$PATH
+    ```
+
+    What this command does is adds a path to Flutter inside your terminal environment so your system knows where to find the flutter SDK files.
+
+    In this case, if you created a folder called __"development"__, inside your usersname folder and it contains the previously extracted flutter director, you would use __"development/flutter/bin"__.
+    
+    this path is important, if it is wrong, Flutter will not work.
+
+    When done, save the file and close your editor or terminal window.
+
 
 # Visual Studio Code Setup
 This section, we setup Visual Studio Code for Flutter development. I am assuming you already have Visual Studio Code already installed, but if you do not, please go to [the Visual Studio Code website](https://code.visualstudio.com/) and install it.
@@ -67,8 +94,40 @@ This section, we setup Visual Studio Code for Flutter development. I am assuming
 For this course, even though, Flutter is multi-platform, we will concentrate on using the Android Simulator. Chrome can be used as a quicker method for testing, but all assignments will be expected to run in the Android Simulator.
 
 1. Go to [the Android Studio website](https://developer.android.com/studio) and download the latest vesrion of Android Studio.
-2. TBA
+2. Install Android Studio with the default settings.
+3. Start Android Studio.
+    1. first time running, you will be shown a __"Import Android Studio Settings"__ dialog. Choose the  __"Do not import settings"__ option.
+    2. You will be next asked if you want to send diagnostic data to Google, you can choose whatever option you wish.
+    3. The next dialog will be the "Android Studio Setup Wizard". 
+        1. Here you choose the __"Custom"__ option, click "Next".
+        2. Choose your desired Theme, click "Next".
+        3. The __"SDK Components Setup"__ options is where you will chose what Android options you want. Here you can choose what versions of Android to install, for now you can keep the defaults and move on by clicking "Next".
+        4.  Continue clicking "Next" until you get to "Finish" and click it to continue to the setup.
+    4. Once the installation finishes, a final "Finish" button will be available, clicking it will bring you to the "Welcome" screen. 
+        1. Click the "More Actions" and choose the "SDK Manager".
+        2. We will be taken to a "Settings" window. In this window go to the "SDK Tools" tab.
+        3. Here we will be given a list of checkbox options, we need to have the following checked:
+            1. Android SDK Command line Tools (latest)
+        4. Click "OK", you will be asked to Confirm the changes, click "OK".
+            * more downloads happen here.
+        5. Click "Finish" when done.
 
+# Confirm Flutter is Ready
+Finally, we can confirm Flutter is ready for use. The SDK has a handy tool called "doctor" which will check to ensure you have all the parts you need.
+
+1. Open a terminal window (either OSX or Windows).
+2. in the terminal window type in the following command:
+
+    ```
+    flutter doctor
+    ```
+3. You will get a report showing any issues, below is what my Mac shows:
+
+    ![Flutter Doctor](images/setup-flutter_doctor.png)
+
+4. If there any errors, Flutter will give you some options to resolve.
+    * __NOTE__: There might be platform errors, such as the inability to build for Windows because Visual Studio is not available. You can ignore this for our class, since we are not going to be targeting Windows Desktop. If you do, however, wish to try this out, you will need to install Visual Studio.
+    For the class, the important build targets is IOS and Chrome.
 
 # Commenting Guidelines
 Commenting isn't a sexy topic, and most young developers will ignore this step, but it is a vital skill to develop. Any organization you may end up working for will expect you to document your code, so this class ensures you understand this concept. Your code is expected to be commented according to the class commenting guidelines; failure to do so will result in loss of points on your assignments.
